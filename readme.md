@@ -41,7 +41,7 @@ Then point it to the URL named in the previous section
 
 Lifecycle Management Policy
 
-<a href="https://raw.githubusercontent.com/Brandsma/FinOps-Deployments/main/change_aging_data_tiers.json">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FBrandsma%2FFinOps-Deployments%2Fmain%2Fchange_aging_data_tiers.json">
 	<img src="https://aka.ms/deploytoazurebutton"/>
 </a>
 
