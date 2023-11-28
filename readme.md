@@ -40,6 +40,7 @@ Then point it to the URL named in the previous section
 ## Example
 
 Lifecycle Management Policy
+
 <a href="https://raw.githubusercontent.com/Brandsma/FinOps-Deployments/main/change_aging_data_tiers.json">
 	<img src="https://aka.ms/deploytoazurebutton"/>
 </a>
