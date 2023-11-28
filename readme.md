@@ -40,5 +40,5 @@ Then point it to the URL named in the previous section
 ## Example
 
 Lifecycle Management Policy
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)][https://raw.githubusercontent.com/Brandsma/FinOps-Deployments/main/change_aging_data_tiers.json]
+[![https://aka.ms/deploytoazurebutton]][https://raw.githubusercontent.com/Brandsma/FinOps-Deployments/main/change_aging_data_tiers.json]
 
