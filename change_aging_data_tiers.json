@@ -1,0 +1,68 @@
+{
+  "type": "Microsoft.Storage/storageAccounts/managementPolicies",
+  "apiVersion": "2021-02-01",
+  "name": "default",
+  "properties": {
+    "policy": {
+      "rules": [
+        {
+          "definition": {
+            "actions": {
+              "baseBlob": {
+                "delete": {
+                  "daysAfterLastAccessTimeGreaterThan": "int",
+                  "daysAfterModificationGreaterThan": "int"
+                },
+                "enableAutoTierToHotFromCool": "bool",
+                "tierToArchive": {
+                  "daysAfterLastAccessTimeGreaterThan": "int",
+                  "daysAfterModificationGreaterThan": "int"
+                },
+                "tierToCool": {
+                  "daysAfterLastAccessTimeGreaterThan": "int",
+                  "daysAfterModificationGreaterThan": "int"
+                }
+              },
+              "snapshot": {
+                "delete": {
+                  "daysAfterCreationGreaterThan": "int"
+                },
+                "tierToArchive": {
+                  "daysAfterCreationGreaterThan": "int"
+                },
+                "tierToCool": {
+                  "daysAfterCreationGreaterThan": "int"
+                }
+              },
+              "version": {
+                "delete": {
+                  "daysAfterCreationGreaterThan": "int"
+                },
+                "tierToArchive": {
+                  "daysAfterCreationGreaterThan": "int"
+                },
+                "tierToCool": {
+                  "daysAfterCreationGreaterThan": "int"
+                }
+              }
+            },
+            "filters": {
+              "blobIndexMatch": [
+                {
+                  "name": "string",
+                  "op": "string",
+                  "value": "string"
+                }
+              ],
+              "blobTypes": [ "string" ],
+              "prefixMatch": [ "string" ]
+            }
+          },
+          "enabled": "bool",
+          "name": "string",
+          "type": "Lifecycle"
+        }
+      ]
+    }
+  }
+}
