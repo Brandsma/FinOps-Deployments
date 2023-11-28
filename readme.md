@@ -27,7 +27,7 @@ This URL can be used to deploy the resource to Azure
 ## Including the URL in a button
 
 Use the following code to draw the button
-```html
+```markdown
 /* HTML */
 <img src="https://aka.ms/deploytoazurebutton"/>
  
@@ -36,3 +36,9 @@ Use the following code to draw the button
 ```
 
 Then point it to the URL named in the previous section
+
+## Example
+
+Lifecycle Management Policy
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)][https://raw.githubusercontent.com/Brandsma/FinOps-Deployments/main/change_aging_data_tiers.json]
+
